@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Impact&family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.controls input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4757;
+    color: white;
+    cursor: pointer;
+}
+
+.meme-box {
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.meme-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto; 
+}
+
+.meme-text {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#topCaption {
+    top: 10px; 
+}
+
+#bottomCaption {
+    bottom: 10px; 
+}
+h1{
+    color: gold;
+}
